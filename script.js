@@ -26,7 +26,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyCI_RGUnikOuUZYVp9hXaJElbiAWKEZMDE",
   authDomain: "mediqueue-64a74.firebaseapp.com",
   projectId: "mediqueue-64a74",
-  storageBucket: "mediqueue-64a74.firebasestorage.app",
+  storageBucket: "mediqueue-64a74.appspot.com",
   messagingSenderId: "831314942153",
   appId: "1:831314942153:web:720284796009eb610cd518"
 };
@@ -373,4 +373,5 @@ showView("registration");
 document.addEventListener("keydown", (e) => {
   if(e.key === "Escape") showView("registration");
 });
+
 
